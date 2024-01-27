@@ -15,7 +15,7 @@ export default function Home() {
         <div className="p-6 bg-white rounded shadow">
           {!gameStarted &&
             <div className="flex items-center justify-center mb-4 gap-4">
-              <label className="mr-2 ">Insert Playername:</label>
+              <label className="mr-2 font-bold text-black">Insert Playername:</label>
               <input
                 type="text"
                 className="border rounded p-2"

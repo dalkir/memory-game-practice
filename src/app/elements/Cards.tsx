@@ -10,7 +10,7 @@ export default function Cards(
   const { flippedCards } = useContext(GameContext);
 
   return (
-    <div className="grid grid-cols-5 gap-6 p-4">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 p-4">
       {shuffledAnimals.map((e, i) => {
         return <Card
           url={e.url} 
