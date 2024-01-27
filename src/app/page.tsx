@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           }
 
-          {gameStarted && <ScoreBoard playerName={playerName} correctCount={0} failuresCount={0} />}
+          {gameStarted && <ScoreBoard playerName={playerName} />}
           {gameStarted && 
             <Suspense fallback={<GameBoardSkeleton />}>
               <GameBoard />
