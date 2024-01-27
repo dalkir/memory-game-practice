@@ -18,7 +18,7 @@ export default function Home() {
               <label className="mr-2 font-bold text-black">Insert Playername:</label>
               <input
                 type="text"
-                className="border rounded p-2"
+                className="border rounded p-2 font-bold text-black"
                 placeholder="Gandalf"
                 value={playerName}
                 onChange={(e) => setPlayerName(e.target.value)}
